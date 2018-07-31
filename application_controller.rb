@@ -5,6 +5,7 @@ class MyApp < Sinatra::Base
 
   get '/' do
     @name="Tallie"
+    @cats=
     erb :index
   end
   
