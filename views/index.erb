@@ -9,9 +9,10 @@
   <p> I am going to pick a number from 1 to 100 </p>
   <p> <%=@rand =rand(1..100)%></p>
   <p> THe random number i picked is <% if @rand%2==0   %>
-      <%=even%>
+     <p>even</p> 
       <%else%>
-      <%=odd%>
+    <p>odd</p>
+ <% end %>
   </p>
 </body>
 </html>
